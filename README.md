@@ -33,13 +33,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+ it add meaning to the element.
+
 2. What are the 4 areas of the box model?
 
+Margin, Border, Padding and content
+
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Horizontaly on row and Vertical on column.
 
 4. Explain why git is valuable to a team of developers.
 
+It controls and organizes the code.. it makes easier to colaborate
+
 5. Define mobile-first design in your own words.
+
+Its build a responsive verstion of the sire first and later just adpting to a desktop size.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -64,7 +73,7 @@ Your finished project must include all of the following requirements:
 
 * [x] Build the HTML and CSS to create the missing navigation and header
 * [x] Link the `About` navigation item to the [about.html](about.html) page
-* [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
+* [X] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
 *  Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
@@ -102,6 +111,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master

@@ -266,11 +266,23 @@ footer nav a {
         
     }
     .top-content {
-        border: solid red;
+        display: flex;
         flex-direction: column;
-       justify-content: space-between;
-
+        justify-content: center;
+        align-items: stretch;
+        
+        width: 100%;
+        align-content: stretch;
     }
+    .text-container {
+        margin: 0 auto;
+        
+    }
+
+    
+    
+
+
     .boxes {
         flex-direction: column;
         justify-content: center;
