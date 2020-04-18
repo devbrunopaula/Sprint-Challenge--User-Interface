@@ -15,24 +15,29 @@
 body {
 	line-height: 1rem;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html, body {
@@ -119,19 +124,24 @@ nav a {
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+  padding: 0 2%;
+  margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
@@ -177,13 +187,16 @@ nav a {
     background-color: dodgerblue
 }
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 2% 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+  padding-right: 4%;
 }
 
 .bottom-content .text-container p{
@@ -192,7 +205,7 @@ nav a {
     line-height: 1.6;
 }
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 /*############################
@@ -200,8 +213,8 @@ nav a {
 #############################*/
 
 footer {
-    width: 100%;
-    background: black;
+  width: 100%;
+  background: black;
 }
 
 footer nav {
