@@ -60,7 +60,7 @@ header .container{
     display: flex;
 	align-items: center;
 	justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 2rem 0;
     
 }
@@ -221,3 +221,16 @@ footer nav a {
 /*############################
        ->   Media Query
 #############################*/
+
+@media only screen and (max-width: 600px) and (max-width:800px){
+    body {
+      background-color: lightblue;
+    }
+
+    header {
+        d
+        border: solid red;
+        flex-direction: column;
+        
+    }
+  }
