@@ -240,10 +240,8 @@ footer nav a {
       background-color: lightblue;
     }
 
-    header {
-        d
-        border: solid red;
+    header .container {
         flex-direction: column;
-        
+       
     }
   }
