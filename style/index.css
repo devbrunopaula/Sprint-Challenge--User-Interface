@@ -235,13 +235,58 @@ footer nav a {
        ->   Media Query
 #############################*/
 
-@media only screen and (max-width: 600px) and (max-width:800px){
-    body {
-      background-color: lightblue;
-    }
-
+@media (max-width: 800px) {
+   
+.logo {
+    margin: 20px 0 40px 0;
+}
     header .container {
         flex-direction: column;
        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a:first-child {
+        background-color: lightgray;
+        width: 300px;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    nav a {
+        border: 1px solid lightgray;
+        width: 300px;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    .top-content {
+        border: solid red;
+        flex-direction: column;
+       justify-content: space-between;
+
+    }
+    .boxes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        width: 100%;
+    }
+    .bottom-content {
+        flex-direction: column;
+
+    }
+   
+    footer:last-child{
+        justify-content: center;
     }
   }
