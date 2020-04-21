@@ -403,10 +403,19 @@ and (max-width : 480px) {
         display: none;
     }
     .bottom-content {
-        display: none;
+        /* display: none; */
     }
     footer {
-        display: none;
+        /* display: none; */
+    }
+    .footer-nav {
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .bottom-content {
+        flex-direction: column;
     }
 }
 

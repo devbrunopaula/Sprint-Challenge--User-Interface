@@ -1,0 +1,29 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "hero hero hero hero hero" "aboutus aboutus aboutus aboutus sidebar" "girl . commited commited sidebar" "girl . commited commited sidebar" "focus focus focus focus sidebar" "focusarea . responsibility global sidebar" "focusarea . responsibility global sidebar" ". . . . .";
+  }
+  
+  .hero { 
+      grid-area: hero; 
+        background-color: blueviolet;
+    }
+  
+  .aboutus { grid-area: aboutus; }
+  
+  .commited { grid-area: commited; }
+  
+  .girl { grid-area: girl; }
+  
+  .focus { grid-area: focus; }
+  
+  .focusarea { grid-area: focusarea; }
+  
+  .responsibility { grid-area: responsibility; }
+  
+  .global { grid-area: global; }
+  
+  .sidebar { grid-area: sidebar; }
