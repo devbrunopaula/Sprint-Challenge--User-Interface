@@ -437,7 +437,9 @@ and (max-width : 1024px) {
 @media only screen 
 and (min-width : 481px) 
 and (max-width : 768px) {
-   
+   body {
+       background-color: brown;
+   }
     .container {
         width: 90%;
         max-width: 90%;
@@ -449,7 +451,9 @@ and (max-width : 768px) {
         padding-top: 5%;
         flex-direction: column;
     }
-
+    nav a {
+        padding: 3rem 0;
+    }
     footer{
         width: 100%;
         height: 7rem;
