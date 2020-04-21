@@ -1,0 +1,46 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  gap: 1px 1px;
+  grid-template-areas:
+  "hero hero hero hero"
+  "about about about sidebar" 
+  "girl committed committed sidebar" 
+  "focus focus focus sidebar"
+  "focus-area responsibility global sidebar";
+}
+
+.hero { grid-area: hero; }
+
+.about { grid-area: about; }
+
+.girl { grid-area: girl; }
+
+.committed { grid-area: committed; }
+
+.focus { grid-area: focus; }
+
+.focus-area { grid-area: focus-area; }
+
+.responsibility { grid-area: responsibility; }
+
+.global { grid-area: global; }
+
+.sidebar { grid-area: sidebar; }
+
+
+.grid-container * { 
+ border: 1px solid red;
+ position: relative;
+}
+
+.grid-container *:after { 
+ content:attr(class);
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
